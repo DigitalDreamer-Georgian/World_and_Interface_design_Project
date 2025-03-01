@@ -47,6 +47,9 @@ TagManager:
   - name: Collision
     uniqueID: 4095169927
     locked: 0
+  - name: Walkfront
+    uniqueID: 1947947689
+    locked: 0
   - name: Character
     uniqueID: 2769613831
     locked: 0
