@@ -155,6 +155,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -162,10 +175,10 @@ TextureImporter:
       name: Adam_sit_16x16_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
-        width: 18
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,10 +197,10 @@ TextureImporter:
       name: Adam_sit_16x16_1
       rect:
         serializedVersion: 2
-        x: 37
+        x: 32
         y: 0
-        width: 18
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,10 +219,10 @@ TextureImporter:
       name: Adam_sit_16x16_2
       rect:
         serializedVersion: 2
-        x: 69
+        x: 64
         y: 0
-        width: 18
-        height: 25
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +241,10 @@ TextureImporter:
       name: Adam_sit_16x16_3
       rect:
         serializedVersion: 2
-        x: 101
+        x: 96
         y: 0
-        width: 18
-        height: 25
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +263,10 @@ TextureImporter:
       name: Adam_sit_16x16_4
       rect:
         serializedVersion: 2
-        x: 133
+        x: 128
         y: 0
-        width: 18
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +285,10 @@ TextureImporter:
       name: Adam_sit_16x16_5
       rect:
         serializedVersion: 2
-        x: 165
+        x: 160
         y: 0
-        width: 18
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +307,10 @@ TextureImporter:
       name: Adam_sit_16x16_6
       rect:
         serializedVersion: 2
-        x: 201
+        x: 192
         y: 0
-        width: 18
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,10 +329,10 @@ TextureImporter:
       name: Adam_sit_16x16_7
       rect:
         serializedVersion: 2
-        x: 233
+        x: 224
         y: 0
-        width: 18
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +351,10 @@ TextureImporter:
       name: Adam_sit_16x16_8
       rect:
         serializedVersion: 2
-        x: 265
+        x: 256
         y: 0
-        width: 18
-        height: 25
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +373,10 @@ TextureImporter:
       name: Adam_sit_16x16_9
       rect:
         serializedVersion: 2
-        x: 297
+        x: 288
         y: 0
-        width: 18
-        height: 25
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +395,10 @@ TextureImporter:
       name: Adam_sit_16x16_10
       rect:
         serializedVersion: 2
-        x: 329
+        x: 320
         y: 0
-        width: 18
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,10 +417,10 @@ TextureImporter:
       name: Adam_sit_16x16_11
       rect:
         serializedVersion: 2
-        x: 361
+        x: 352
         y: 0
-        width: 18
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,7 +439,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 70261ab731813914c8515cf9dd3486d6
     internalID: 0
     vertices: []
     indices: 
@@ -435,7 +448,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Adam_sit_16x16_0: 8779448804127392497
+      Adam_sit_16x16_1: 689939884645111447
+      Adam_sit_16x16_10: -2533355401864315563
+      Adam_sit_16x16_11: -9159724303016641955
+      Adam_sit_16x16_2: -7095404647107506099
+      Adam_sit_16x16_3: 2226302202240669414
+      Adam_sit_16x16_4: -8062243252753603003
+      Adam_sit_16x16_5: -7838319326088254830
+      Adam_sit_16x16_6: 4453256725853520261
+      Adam_sit_16x16_7: 6317885541867691322
+      Adam_sit_16x16_8: -106025371641406170
+      Adam_sit_16x16_9: -7209659909301924114
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

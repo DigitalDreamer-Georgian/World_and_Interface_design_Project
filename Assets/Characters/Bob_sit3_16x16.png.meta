@@ -152,6 +152,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -159,10 +172,10 @@ TextureImporter:
       name: Bob_sit3_16x16_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
         width: 16
-        height: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +194,10 @@ TextureImporter:
       name: Bob_sit3_16x16_1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 0
         width: 16
-        height: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +216,10 @@ TextureImporter:
       name: Bob_sit3_16x16_2
       rect:
         serializedVersion: 2
-        x: 33
+        x: 32
         y: 0
         width: 16
-        height: 24
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +238,10 @@ TextureImporter:
       name: Bob_sit3_16x16_3
       rect:
         serializedVersion: 2
-        x: 49
+        x: 48
         y: 0
         width: 16
-        height: 24
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +260,10 @@ TextureImporter:
       name: Bob_sit3_16x16_4
       rect:
         serializedVersion: 2
-        x: 65
+        x: 64
         y: 0
         width: 16
-        height: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +282,10 @@ TextureImporter:
       name: Bob_sit3_16x16_5
       rect:
         serializedVersion: 2
-        x: 81
+        x: 80
         y: 0
-        width: 30
-        height: 23
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +304,10 @@ TextureImporter:
       name: Bob_sit3_16x16_6
       rect:
         serializedVersion: 2
-        x: 111
+        x: 96
         y: 0
         width: 16
-        height: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,10 +326,10 @@ TextureImporter:
       name: Bob_sit3_16x16_7
       rect:
         serializedVersion: 2
-        x: 127
+        x: 112
         y: 0
         width: 16
-        height: 24
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,10 +348,10 @@ TextureImporter:
       name: Bob_sit3_16x16_8
       rect:
         serializedVersion: 2
-        x: 143
+        x: 128
         y: 0
         width: 16
-        height: 24
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,10 +370,10 @@ TextureImporter:
       name: Bob_sit3_16x16_9
       rect:
         serializedVersion: 2
-        x: 159
+        x: 144
         y: 0
         width: 16
-        height: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -379,10 +392,10 @@ TextureImporter:
       name: Bob_sit3_16x16_10
       rect:
         serializedVersion: 2
-        x: 175
+        x: 160
         y: 0
         width: 16
-        height: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,11 +410,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Bob_sit3_16x16_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583c1c78b9a01f041b42bd2b83932870
+      internalID: 1176310015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 215ed77e40f166344ad6a01779ae66d4
     internalID: 0
     vertices: []
     indices: 
@@ -410,7 +445,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bob_sit3_16x16_0: -230947215633797341
+      Bob_sit3_16x16_1: 3311676765295206754
+      Bob_sit3_16x16_10: 6113795554917197358
+      Bob_sit3_16x16_11: 1176310015
+      Bob_sit3_16x16_2: -7792540634220154007
+      Bob_sit3_16x16_3: 4588003581911417146
+      Bob_sit3_16x16_4: -5107227439506498117
+      Bob_sit3_16x16_5: 3363925100908686869
+      Bob_sit3_16x16_6: 1405156500247971489
+      Bob_sit3_16x16_7: 5836331097599234290
+      Bob_sit3_16x16_8: 8407583072626586760
+      Bob_sit3_16x16_9: -5898557647525410565
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

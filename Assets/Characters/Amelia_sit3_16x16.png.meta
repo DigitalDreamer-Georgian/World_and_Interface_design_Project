@@ -152,6 +152,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -159,10 +172,10 @@ TextureImporter:
       name: Amelia_sit3_16x16_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
         width: 16
-        height: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +194,10 @@ TextureImporter:
       name: Amelia_sit3_16x16_1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 0
         width: 16
-        height: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +216,10 @@ TextureImporter:
       name: Amelia_sit3_16x16_2
       rect:
         serializedVersion: 2
-        x: 33
+        x: 32
         y: 0
         width: 16
-        height: 24
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +238,10 @@ TextureImporter:
       name: Amelia_sit3_16x16_3
       rect:
         serializedVersion: 2
-        x: 49
+        x: 48
         y: 0
         width: 16
-        height: 24
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +260,10 @@ TextureImporter:
       name: Amelia_sit3_16x16_4
       rect:
         serializedVersion: 2
-        x: 65
+        x: 64
         y: 0
         width: 16
-        height: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +282,10 @@ TextureImporter:
       name: Amelia_sit3_16x16_5
       rect:
         serializedVersion: 2
-        x: 81
+        x: 80
         y: 0
-        width: 30
-        height: 23
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +304,10 @@ TextureImporter:
       name: Amelia_sit3_16x16_6
       rect:
         serializedVersion: 2
-        x: 111
+        x: 96
         y: 0
         width: 16
-        height: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,10 +326,10 @@ TextureImporter:
       name: Amelia_sit3_16x16_7
       rect:
         serializedVersion: 2
-        x: 127
+        x: 112
         y: 0
         width: 16
-        height: 24
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,10 +348,10 @@ TextureImporter:
       name: Amelia_sit3_16x16_8
       rect:
         serializedVersion: 2
-        x: 143
+        x: 128
         y: 0
         width: 16
-        height: 24
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,10 +370,10 @@ TextureImporter:
       name: Amelia_sit3_16x16_9
       rect:
         serializedVersion: 2
-        x: 159
+        x: 144
         y: 0
         width: 16
-        height: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -379,10 +392,10 @@ TextureImporter:
       name: Amelia_sit3_16x16_10
       rect:
         serializedVersion: 2
-        x: 175
+        x: 160
         y: 0
         width: 16
-        height: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,11 +410,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Amelia_sit3_16x16_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d696dcd5a9a0e29468b64a7174f14add
+      internalID: -328633222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 98d669f547d87c44a9444bda9770971b
     internalID: 0
     vertices: []
     indices: 
@@ -410,7 +445,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Amelia_sit3_16x16_0: -5353767124290664959
+      Amelia_sit3_16x16_1: 5085353010836365739
+      Amelia_sit3_16x16_10: 7636463511536888101
+      Amelia_sit3_16x16_11: -328633222
+      Amelia_sit3_16x16_2: -2695959667890179920
+      Amelia_sit3_16x16_3: 5063955346585296525
+      Amelia_sit3_16x16_4: 3128614260237800001
+      Amelia_sit3_16x16_5: -7993355701725109425
+      Amelia_sit3_16x16_6: 6989687666889359785
+      Amelia_sit3_16x16_7: -8673782535391783752
+      Amelia_sit3_16x16_8: -9109034899980678556
+      Amelia_sit3_16x16_9: 2781255269573137358
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
