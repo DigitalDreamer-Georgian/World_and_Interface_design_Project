@@ -48,7 +48,7 @@ Riley: I heard Jamie in the art room saw something. Said it whispered her name.
 -> Alex: Let’s start there. Maybe she’ll talk.
     <<jump talktojamie>>
 -> Alex: Maybe someone in the science wing knows more. 
-    <<jump talktoscience>>
+    <<jump chirsRumor>>
 
 ===
 title: talktojamie
