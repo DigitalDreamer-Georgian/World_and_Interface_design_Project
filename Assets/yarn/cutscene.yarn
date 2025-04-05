@@ -1,5 +1,129 @@
-﻿title: NewYarnScript
-tags:
+﻿title: start
+position: -420,-711
 ---
+Narration: Everyone’s heard the rumors. A shadow stalking the halls after sunset with red eyes and tentacles coming from its back. A ghost? A monster? No one knows. But  we’re going to find out.
+
+Narration: Alex stands outside the school gates, holding his flashlight tightly.
+
+Alex (Internal Thought): This is insane. But if the stories are true… someone has to stop it.
+
+Narration: Alex steps inside the school. The metal doors creaking as they slowly open. The halls are dark, lit only by the dying sunset through the windows.
+
+
+Riley: looks like you actually showed up. Thought you'd chicken out.
+
+Devon: (Nervously) I think  we should’ve waited. It’s dangerous in here at night.
+
+-> Alex: I’m not scared. Just cautious.
+    <<jump reply1a>>
+-> Alex: Maybe we should’ve. But we’re already here.
+    <<jump reply1b>>
+
+===
+title: reply1a
+position: -584,-559
+---
+Riley: (Grinning) Now that’s the spirit! Come on, let’s stick together and keep the lights on.
+Devon: (Muttering) Lights won’t help if it’s already watching us.
+<<jump ghostrumors>>
+
+===
+title: reply1b
+position: -273,-561
+---
+Devon: Finally, someone with sense.
+Riley: Ugh, fine. (snarky) Let’s just get this over with before I regret this more.
+<<jump ghostrumors>>
+
+===
+title: ghostrumors
+position: -433,-402
+---
+Narration: The trio moves deeper into the halls, their footsteps echoing. Lockers stand like silent sentinels.
+
+Devon: So who do we talk to first?
+
+Riley: I heard Jamie in the art room saw something. Said it whispered her name.
+
+-> Alex: Let’s start there. Maybe she’ll talk.
+    <<jump talktojamie>>
+-> Alex: Maybe someone in the science wing knows more. 
+    <<jump talktoscience>>
+
+===
+title: talktojamie
+position: -606,-233
+---
+Narration: They head to the art room. Jamie is sketching quietly, headphones on. The room smells of paint and ink.
+
+Riley: Jamie?
+Jamie: (Pulling headphones off) Oh. You’re not here for class…
+
+-> Alex: We heard you saw something.
+    <<jump jamieRumor>>
+-> Alex: This is about the... thing. The shadow.
+    <<jump jamieRumor>>
+
+===
+title: jamieRumor
+position: -198,-263
+---
+Jamie: (Visibly shaken) I didn’t imagine it. I was here late. The lights flickered, and it stood there  it was black, tall, with with red eyes. Tentacles on its back.
+
+Devon: (Scared)Just like the stories…
+
+Jamie: It didn’t move at first just stared at me. Then it whispered my name. I ran.
+
+Riley: Great. That’s comforting.
+
+Alex: Thanks, Jamie. We’ll be careful.
+
+<<jump leadout1>>
+
+===
+title: chirsRumor
+position: -427,-101
+---
+Narration: In the science lab, a student named Chris adjusts a microscope.
+
+Chris: You looking for the ghost thing too?
+
+Alex: Heard you had your own run-in.
+
+Chris: Not me. But I found something. Black slime. Like oil. Near the boiler room.
+
+Devon: Gross.
+
+Riley: Creepy. Let’s go check that out later.
+
+<<jump leadout1>>
+
+===
+title: leadout1
+position: -596,66
+---
+Narration: As the group regathers in the hallway, the lights suddenly flicker.
+
+Devon: Oh no. Not now.
+
+Narration: A distant, low whisper echoes.
+
+Voice (Distorted): Aaaaalex...
+
+
+Riley: RUN!
+
+Narration: They sprint toward the exit as shadows twist unnaturally down the hall...
+
+
+<<jump hauntedEnd>>
+
+===
+title: hauntedEnd
+position: -455,281
+---
+Narration: The night isn't over. The whispers still follow. But now they know it’s real.
+
+Narration: Tomorrow, they return. This time, to end it.
 
 ===
